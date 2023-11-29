@@ -1,0 +1,11 @@
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    border-top: 3px solid $color-negro;
+    cursor: pointer;
+}

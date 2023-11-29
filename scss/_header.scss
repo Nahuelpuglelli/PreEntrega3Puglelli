@@ -1,0 +1,54 @@
+/* Header */
+
+header nav ul {
+    text-align: center;
+    padding: 10px 20px;
+
+    li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 10px;
+    }
+}
+
+/* Main */
+
+main {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Encabezado */
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    background-color:$color-gris-claro;
+    border-top: 20px solid $color-chocolate;
+}
+
+.menuNav a {
+    text-transform: uppercase;
+    background-color: $color-blanco;
+    font-size: 1.4rem;
+    border-left: 2px solid  $color-negro;
+    border-right: 2px solid  $color-negro;
+    border-bottom: 2px solid  $color-negro;
+    border-top: 2px solid  $color-negro;
+    padding: 0;
+
+    &:hover {
+        background-color:$color-chocolate;
+        color: $color-blanco;
+    }
+}
+
+.navbar-brand img {
+    width: 150px;
+    border: 0;
+    padding: 0;
+}

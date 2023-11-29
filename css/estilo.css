@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2? family= Roboto:wght@300 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  background-color: #F4CEC5;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+header nav ul {
+  text-align: center;
+  padding: 10px 20px;
+}
+header nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Main */
+main {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* Encabezado */
+.encabezado {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #9A9998;
+  border-top: 20px solid chocolate;
+}
+
+.menuNav a {
+  text-transform: uppercase;
+  background-color: #fafafa;
+  font-size: 1.4rem;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  padding: 0;
+}
+.menuNav a:hover {
+  background-color: chocolate;
+  color: #fafafa;
+}
+
+.navbar-brand img {
+  width: 150px;
+  border: 0;
+  padding: 0;
+}
+
+/* textos */
+/* links */
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+.contenedorHome {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: black;
+}
+
+.contenedorHome2,
+.contenedorViajes {
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.cardTitulo {
+  font-weight: bold;
+  font-size: 23px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.contenedorTitulo {
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.contenedorTestimonios p {
+  color: black;
+  padding: 1px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.contenedorTitulo2,
+.contenedorContacto {
+  font-family: "Roboto", sans-serif;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.tituloFooter {
+  text-transform: uppercase;
+}
+
+.contenedorFooter {
+  background-color: #9A9998;
+  color: #fafafa;
+}
+.contenedorFooter p {
+  cursor: pointer;
+}
+
+/* Destinos */
+.card {
+  width: 600px;
+  background-color: cornsilk;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+.card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.mapaSucursal {
+  display: block;
+  width: 100%;
+  height: 3fr;
+}
+
+.videosTestimonios {
+  display: block;
+  width: 100%;
+  height: 2fr;
+}
+
+/* iframe */
+iframe {
+  display: block;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  border-top: 3px solid black;
+  cursor: pointer;
+}
+
+/* Formulario */
+.formulario {
+  display: block;
+  width: 2fr;
+  padding: 10px;
+  margin: 10px auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  border-radius: 15px;
+  border: 2px solid chocolate;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type=text],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.btnFormulario {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+@media (max-width: 1023px) {
+  /*header*/
+  main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .encabezado {
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+  .contenedorHome {
+    font-size: 2rem;
+  }
+  .contenedorHome2 {
+    font-size: 1rem;
+  }
+  .contenedorViajes {
+    font-size: 1rem;
+  }
+  .contenedorTitulo {
+    font-size: 1rem;
+  }
+  .contenedorTitulo2 {
+    font-size: 1rem;
+  }
+  .contenedorContacto {
+    font-size: 1rem;
+  }
+  .formulario {
+    font-size: 1rem;
+  }
+  .card {
+    column-gap: 10px;
+    padding: 0%;
+    padding-bottom: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 3fr;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
